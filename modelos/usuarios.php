@@ -6,7 +6,7 @@ class usuario
     private $db;
     public function __construct()
     {
-        $this->db = new mysqli("localhost", "pma", "", "incidencias");
+        $this->db = new mysqli("localhost", "pablodelacuesta", "P*blo99@", "incidencias");
     }
 
     // Devuelve un usuario a partir de la id. Si no existe, devuelve null.
